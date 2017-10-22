@@ -1,0 +1,21 @@
+{
+  "name": "ts-package-starter",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "watch 'yarn run build' src",
+    "prebuild": "yarn run build",
+    "build": "babel src -d dist",
+    "test": "jest",
+    "test:watch": "yarn test -- -- watch"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-latest": "^6.24.1",
+    "flow-bin": "^0.57.3",
+    "jest": "^21.2.1",
+    "watch": "^1.0.2"
+  }
+}
