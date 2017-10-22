@@ -5,9 +5,9 @@
   "license": "MIT",
   "scripts": {
     "dev": "watch 'yarn run build' src",
-    "prebuild": "yarn run build",
+    "prepublish": "yarn run build",
     "build": "babel src -d dist",
-    "test": "jest",
+    "test": "jest src",
     "test:watch": "yarn test -- -- watch"
   },
   "devDependencies": {

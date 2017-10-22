@@ -1,5 +1,3 @@
-class App {
-  constructor() {
-    console.log('Hello world')
-  }
-}
+// @flow
+
+export default (a, b) => a + b
